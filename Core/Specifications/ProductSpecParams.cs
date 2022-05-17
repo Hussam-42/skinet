@@ -26,11 +26,11 @@ namespace Core.Specifications
 
         public string Sort { get; set; } = "sort by name";
 
-        private string search { get; set; }
+        private string? search { get; set; }
 
         public string Search { 
         
-            get { return search; } 
+            get { return search ?? ""; } 
             set { search = value.ToLower(); } 
 
         }

@@ -12,5 +12,4 @@
         public int ProductBrandId { get; set; }
 
     }
-
 }
